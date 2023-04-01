@@ -7,11 +7,12 @@ import Addresse from './Component/Profile/Address';
 
 const  App = () => {
   return(
-    <>
-      <ProfilePhoto />
-       <FullName/>
-       <Addresse />
-    </>
+  
+      <div>
+        <ProfilePhoto />
+        <FullName/>
+        <Addresse />
+      </div>
   );
 }
 
